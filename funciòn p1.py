@@ -1,5 +1,6 @@
 from _typeshed import SupportsItemAccess
-from Suma import funcion (parametro1, parametro2)
+import Suma.Suma
+Suma()
 parametro3 = int(input())
-p1 = parametro3 * Suma
+p1 = parametro3 * suma
 print(p1)
